@@ -396,7 +396,7 @@ if "backend_status" not in st.session_state:
     st.session_state.backend_status = None
 
 # Backend API configuration
-BACKEND_URL = "http://localhost:8000"
+BACKEND_URL = "http://52.3.105.20:8001"
 
 
 def check_backend_status() -> Dict[str, Any]:
